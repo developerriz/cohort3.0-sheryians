@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Beacon Aesthetic";
+    src: url("./Beacon Aesthetic TTF.ttf") format("truetype");
+    font-display: swap;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Beacon Aesthetic", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 0 40px;
+}
+
+.side-a {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.star {
+    width: auto;
+    height: 100px;
+}
+
+.star img {
+    width: 100%;
+    height: 100%;
+}
+
+.heading {
+    font-size: 38px;
+    color: #5e0f12;
+    position: relative;
+}
+
+.heading h1 {
+    line-height: 0.98;
+    font-weight: 500;
+}
+
+.heading .accent-pill {
+    position: relative;
+    width: 138px;
+    height: 62px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 12px 8px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #4f0f0d 0%, #8f1f12 34%, #ff5f1f 76%, #ff8835 100%);
+    box-shadow:
+        inset 0 1px 3px rgba(255, 255, 255, 0.18),
+        0 8px 24px rgba(122, 20, 8, 0.18);
+    overflow: hidden;
+}
+
+.heading .accent-pill img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    object-position: center;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #4f0f0d 0%, #8f1f12 34%, #ff5f1f 76%, #ff8835 100%);
+}
+
+.heading .sub-text {
+    display: block;
+    margin-top: 6px;
+    margin-left: 140px;
+    color: #bca9a8;
+    opacity: 0.5;
+    line-height: 0.95;
+}
+
+.heading .sub-text-2 {
+    display: block;
+    margin-left: 188px;
+    color: #5e0f12;
+    line-height: 0.95;
+}
+
+.sub-texts {
+    margin-top: 12px;
+    line-height: 1.2;
+}
+
+.sub-texts p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #5e0f12;
+    opacity: 0.8;
+    line-height: 1.2;
+}
+
+.projects-section {
+    margin-top: 12px;
+    position: relative;
+    width: 100%;
+    min-height: 290px;
+}
+
+.projects-label {
+    position: absolute;
+    left: 0;
+    top: 144px;
+}
+
+.projects-label p {
+    color: #6b1718;
+    font-size: 22px;
+    line-height: 0.95;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    width: fit-content;
+}
+
+.projects-content {
+    width: 100%;
+    max-width: 860px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.projects-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.project-card {
+    width: 250px;
+    height: 290px;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #1d1d1d;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.project-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(to top,
+            rgba(0, 0, 0, 0.28),
+            transparent 40%);
+    pointer-events: none;
+}
+
+.growth-section {
+    margin-top: 90px;
+    text-align: center;
+    color: #5e0f12;
+}
+
+.growth-section h2 {
+    font-size: 46px;
+    line-height: 0.95;
+    font-weight: 500;
+}
+
+.growth-section h2 span {
+    display: inline;
+}
+
+.growth-dark {
+    color: #5e0f12;
+}
+
+.growth-light {
+    color: #bca9a8;
+}
+
+.growth-light+.growth-light {
+    display: block;
+}
+
+.growth-section p {
+    margin-top: 18px;
+    font-size: 11px;
+    line-height: 1.1;
+    color: rgba(94, 15, 18, 0.82);
+}
