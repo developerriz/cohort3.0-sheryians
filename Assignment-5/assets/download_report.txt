@@ -1,0 +1,40 @@
+================================================================================
+                      IMAGE EXTRACTOR - DOWNLOAD REPORT
+================================================================================
+Page URL:   https://anubhavjha893.github.io/LOMBOK_site/
+Base Name:  assets
+Started:    2026-05-18 13:10
+Completed:  2026-05-18 13:11
+
+================================================================================
+                                 SUMMARY
+================================================================================
+Total Selected:     5
+Downloaded:         5
+
+================================================================================
+                     DOWNLOADED FILES - FILENAME → URL
+================================================================================
+assets_1.jpg
+  → https://images.unsplash.com/photo-1511936606692-5e0d73f6b638?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+assets_2.jpg
+  → https://images.unsplash.com/photo-1624817670169-57a1245cf3f1?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+assets_3.jpg
+  → https://images.unsplash.com/photo-1536431311719-398b6704d4cc?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+assets_4.jpg
+  → https://images.unsplash.com/photo-1621849400072-f554417f7051?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+assets_5.jpg
+  → https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+================================================================================
+                       COPY-PASTE URLS (DOWNLOADED)
+================================================================================
+https://images.unsplash.com/photo-1511936606692-5e0d73f6b638?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+https://images.unsplash.com/photo-1624817670169-57a1245cf3f1?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+https://images.unsplash.com/photo-1536431311719-398b6704d4cc?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+https://images.unsplash.com/photo-1621849400072-f554417f7051?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
