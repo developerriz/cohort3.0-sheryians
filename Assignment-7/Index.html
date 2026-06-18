@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-theme="light">
+    <div class="page-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Personal workflow studio</p>
+          <h1>Task Manager.</h1>
+        </div>
+
+        <div class="topbar-actions">
+          <p class="topbar-note">Plan the week. Clear the noise.</p>
+          <button id="themeToggle" class="theme-toggle" type="button">
+            Dark Mode
+          </button>
+        </div>
+      </header>
+
+      <main class="dashboard">
+        <aside class="control-panel">
+          <section class="panel-card">
+            <div class="panel-heading">
+              <h2>Create a task</h2>
+              <span class="panel-chip">Live local storage</span>
+            </div>
+
+            <form id="taskForm" class="task-form">
+              <label class="field">
+                <span>Task title</span>
+                <input
+                  type="text"
+                  id="taskInput"
+                  placeholder="Prepare sprint review notes"
+                  required
+                />
+              </label>
+
+              <label class="field">
+                <span>Category</span>
+                <select id="categorySelect">
+                  <option value="Work">Work</option>
+                  <option value="Study">Study</option>
+                  <option value="Personal">Personal</option>
+                  <option value="Health">Health</option>
+                </select>
+              </label>
+
+              <button class="primary-btn" type="submit">Add task</button>
+            </form>
+          </section>
+
+          <section class="panel-card">
+            <div class="panel-heading">
+              <h2>Browser rendering flow</h2>
+              <span class="panel-chip subtle">Concept map</span>
+            </div>
+
+            <div class="pipeline">
+              <div class="pipeline-step">
+                <strong>HTML</strong>
+                <span>Structure enters the parser.</span>
+              </div>
+              <div class="pipeline-step">
+                <strong>DOM Tree</strong>
+                <span>Elements become nodes in memory.</span>
+              </div>
+              <div class="pipeline-step">
+                <strong>CSS + CSSOM</strong>
+                <span>Style rules are resolved.</span>
+              </div>
+              <div class="pipeline-step">
+                <strong>Render Tree</strong>
+                <span>Visible nodes are combined for painting.</span>
+              </div>
+            </div>
+          </section>
+        </aside>
+
+        <section class="workspace">
+          <section class="hero-card">
+            <div>
+              <p class="section-label">Daily overview</p>
+              <h2>Task Count</h2>
+            </div>
+
+            <div class="stats-grid">
+              <article class="stat-card">
+                <span>Total tasks</span>
+                <strong id="totalCount">0</strong>
+              </article>
+              <article class="stat-card">
+                <span>Completed</span>
+                <strong id="completedCount">0</strong>
+              </article>
+              <article class="stat-card">
+                <span>Pending</span>
+                <strong id="pendingCount">0</strong>
+              </article>
+            </div>
+          </section>
+
+          <section class="board-card">
+            <div class="board-toolbar">
+              <div>
+                <p class="section-label">Board controls</p>
+                <h2>Task queue</h2>
+              </div>
+
+              <div class="filters">
+                <label class="inline-field">
+                  <span>Search</span>
+                  <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Find a task"
+                  />
+                </label>
+
+                <label class="inline-field">
+                  <span>Category</span>
+                  <select id="filterCategory">
+                    <option value="All">All</option>
+                    <option value="Work">Work</option>
+                    <option value="Study">Study</option>
+                    <option value="Personal">Personal</option>
+                    <option value="Health">Health</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+
+            <div id="taskContainer" class="task-list" aria-live="polite"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
